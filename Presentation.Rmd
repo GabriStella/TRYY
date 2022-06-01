@@ -207,7 +207,7 @@ texting here
 texting here
 
 
-## We're going to compare fig 1
+## fig 1: what is it, what we can see from it
 texting here
 
 ## reproduced
@@ -226,7 +226,7 @@ fig_1_new
 ## result
 texting here
 
-## explain table
+## something about model
 texting here
 
 ## reproduced
@@ -246,12 +246,14 @@ cat(tbl2, sep = '\n')
 ## is it t-statics always 2?
 texting here
 
+## Histogram 
+
 ```{r, echo=FALSE}
 plotNormalHistogram( dt$t_stat, prob = FALSE, col="indianred",
                                              main = "Normal Distribution overlay on Histogram", linecol="black" )
 ```
 
-## explain 
+## Something about difference in table
 texting here
 
 ## fig 2: what is it, what we can see from it

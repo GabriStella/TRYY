@@ -59,7 +59,7 @@ dt = data.frame(id_num, implemented, author, year, t_stat, df, coef, teen_subsam
 dt$error = dt$coef / dt$t_stat
 dt$sqrt_df = sqrt(dt$df)
 dt$l_sqrt_df = log(dt$sqrt_df)
-#save(dt, file = "DataFrame.RData")
+save(dt, file = "DataFrame.RData")
 
 #now we're going to reproduce the old model predict in the paper and then we'll calculate the implemented ones.
 

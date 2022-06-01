@@ -1,6 +1,6 @@
 ---
 title:     Time Series Minimum Wage Studies Meta-Analysis
-output:    revealjs::revealjs_presentation
+output:    beamer_presentation
 author:    GS
 date:      May, 2021
 fontsize:  9pt
@@ -184,7 +184,7 @@ tbl2 = sub('^.+\\caption.+$','', tbl2)
 
 
 
-# Introduction
+## Introduction
 
 
 
@@ -194,48 +194,57 @@ tbl2 = sub('^.+\\caption.+$','', tbl2)
 
 ## Meta-Analysis what are we doing? 
 
+texting here
+
 
 ## How we can find the data and missing data 
-
+texting here
 
 ## reproducing part
-
+texting here
 
 ## a brief introduction
+texting here
 
 
+## We're going to compare fig 1
+texting here
 
-# We're going to compare fig 1
-
-## old
-- 
+## reproduced
+- texting here
 ```{r, warning = F, message = F, echo = F, fig.width = 6, fig.height = 4}
 fig_1_old
 ```
 
-## new
-- 
+## implemented
+
+-texting here 
 ```{r, warning = F, message = F, echo = F, fig.width = 6, fig.height = 4}
 fig_1_new
 ```
 
 ## result
+texting here
 
-# explain table
+## explain table
+texting here
 
-## old
+## reproduced
+texting here
 
 ```{r, echo = F, results = 'asis', out.width = 6, out.height = 4}
 cat(tbl1, sep = '\n')
 ```
 
-## new
+## implemented
+texting here
 
 ```{r, echo = F, results = 'asis', out.width = 6, out.height = 4}
 cat(tbl2, sep = '\n')
 ```
 
-# is it t-statics always 2?
+## is it t-statics always 2?
+texting here
 
 ```{r, echo=FALSE}
 plotNormalHistogram( dt$t_stat, prob = FALSE, col="indianred",
@@ -243,16 +252,28 @@ plotNormalHistogram( dt$t_stat, prob = FALSE, col="indianred",
 ```
 
 ## explain 
+texting here
 
+## fig 2: what is it, what we can see from it
+texting here
 
-# We're going to compare fig 2
+## reproduced
 
-## old
+```{r, warning = F, message = F, echo = F, fig.width = 6, fig.height = 4}
+fig_2_old
+```
 
-## new 
+## implemented 
+
+```{r, warning = F, message = F, echo = F, fig.width = 6, fig.height = 4}
+fig_2_new
+```
 
 ## result
+texting here
 
-# conclusion
+## conclusion
+texting here
 
 # Thank You 
+
